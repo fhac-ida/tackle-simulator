@@ -1,0 +1,45 @@
+/* CSS for the overlay */
+#overlay {
+    position: absolute;
+    top: 5%;
+    right: 50px;
+    width: 20%; /* Adjust the width as needed */
+    max-width: 200px;
+    height: 90%;
+    background-color: #f8f9fa;
+    box-shadow: -3px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 100;
+    border-radius: 5px;
+}
+
+/* CSS for groups, center groupDivs inside of groupList */
+#groupList{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    align-items: center;
+}
+.groupDiv:hover {
+    background-color: #fab1b1;
+}
+.groupDiv {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+    height: 50px;
+    border-radius: 5px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.button_no_margin{
+    margin-bottom: 0px;
+}
+
+.padding_top{
+    padding-top: 0rem !important;
+}
+

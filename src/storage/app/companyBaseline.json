@@ -1,0 +1,226 @@
+{
+    "networkSecurity": {
+        "microManufacturers": {
+            "nonImportant": "1,1,1,1,1",
+            "important": "2,2,2,1,1",
+            "essentialSupplyChain": "2,3,3,2,3",
+            "essential": "2,3,3,2,3"
+        },
+        "smallManufacturers": {
+            "nonImportant": "1,1,1,1,1",
+            "important": "2,2,2,1,1",
+            "essentialSupplyChain": "2,3,3,2,3",
+            "essential": "3,3,3,2,3"
+        },
+        "mediumManufacturers": {
+            "nonImportant": "1,1,1,1,1",
+            "important": "2,2,2,1,1",
+            "essentialSupplyChain": "2,3,3,2,3",
+            "essential": "3,3,3,3,3"
+        },
+        "providers": {
+            "nonImportant": "1,1,1,1,1",
+            "important": "2,2,2,1,1",
+            "essentialSupplyChain": "2,3,3,2,3",
+            "essential": "2,3,3,2,3"
+        },
+        "sme": {
+            "nonImportant": "1,1,1,1,1",
+            "important": "2,2,2,1,1",
+            "essentialSupplyChain": "2,3,3,2,3",
+            "essential": "2,3,3,2,3"
+        }
+    },
+    "deviceConnectivity": {
+        "microManufacturers": {
+            "nonImportant": "1,1,1,1,1",
+            "important": "2,2,2,1,1",
+            "essentialSupplyChain": "2,3,3,2,3",
+            "essential": "2,3,3,2,3"
+        },
+        "smallManufacturers": {
+            "nonImportant": "1,1,1,1,1",
+            "important": "2,2,2,1,1",
+            "essentialSupplyChain": "2,3,3,2,3",
+            "essential": "3,3,3,2,3"
+        },
+        "mediumManufacturers": {
+            "nonImportant": "1,1,1,1,1",
+            "important": "2,2,2,1,1",
+            "essentialSupplyChain": "2,3,3,2,3",
+            "essential": "3,3,3,3,3"
+        },
+        "providers": {
+            "nonImportant": "1,1,1,1,1",
+            "important": "2,2,2,1,1",
+            "essentialSupplyChain": "2,3,3,2,3",
+            "essential": "2,3,3,2,3"
+        },
+        "sme": {
+            "nonImportant": "1,1,1,1,1",
+            "important": "2,2,2,1,1",
+            "essentialSupplyChain": "2,3,3,2,3",
+            "essential": "2,3,3,2,3"
+        }
+    },
+    "remoteAccess": {
+        "microManufacturers": {
+            "nonImportant": "1",
+            "important": "2",
+            "essentialSupplyChain": "2",
+            "essential": "2"
+        },
+        "smallManufacturers": {
+            "nonImportant": "1",
+            "important": "2",
+            "essentialSupplyChain": "2",
+            "essential": "3"
+        },
+        "mediumManufacturers": {
+            "nonImportant": "1",
+            "important": "2",
+            "essentialSupplyChain": "3",
+            "essential": "3"
+        },
+        "providers": {
+            "nonImportant": "2",
+            "important": "2",
+            "essentialSupplyChain": "3",
+            "essential": "3"
+        },
+        "sme": {
+            "nonImportant": "1",
+            "important": "2",
+            "essentialSupplyChain": "3",
+            "essential": "3"
+        }
+    },
+    "plcHmi": {
+        "microManufacturers": {
+            "nonImportant": "0,0,0,0,0",
+            "important": "1,1,1,1,1",
+            "essentialSupplyChain": "2,1,1,2,2",
+            "essential": "2,2,2,2,2"
+        },
+        "smallManufacturers": {
+            "nonImportant": "0,0,0,0,0",
+            "important": "1,1,1,1,1",
+            "essentialSupplyChain": "2,1,1,2,2",
+            "essential": "2,2,2,2,2"
+        },
+        "mediumManufacturers": {
+            "nonImportant": "1,1,1,1,1",
+            "important": "2,1,1,2,2",
+            "essentialSupplyChain": "2,2,2,2,2",
+            "essential": "3,2,3,2,2"
+        },
+        "providers": {
+            "nonImportant": "1,1,1,1,1",
+            "important": "2,2,2,2,2",
+            "essentialSupplyChain": "2,2,3,2,2",
+            "essential": "3,2,3,2,2"
+        },
+        "sme": {
+            "nonImportant": "1,1,1,1,1",
+            "important": "2,1,1,2,2",
+            "essentialSupplyChain": "2,2,2,2,2",
+            "essential": "3,2,3,2,2"
+        }
+    },
+    "dataSecurity": {
+        "microManufacturers": {
+            "nonCritical": "1,1,1,1,1",
+            "critical": "3,2,2,3,2",
+            "criticalSupplyChain": "2,2,2,2,1",
+            "personalData": "2,2,2,2,3"
+        },
+        "smallManufacturers": {
+            "nonCritical": "1,1,1,1,1",
+            "critical": "3,2,2,3,2",
+            "criticalSupplyChain": "2,2,2,2,1",
+            "personalData": "2,2,2,2,3"
+        },
+        "mediumManufacturers": {
+            "nonCritical": "1,1,1,1,1",
+            "critical": "3,2,2,3,2",
+            "criticalSupplyChain": "2,2,2,2,1",
+            "personalData": "2,2,2,2,3"
+        },
+        "providers": {
+            "nonCritical": "1,1,1,1,1",
+            "critical": "3,2,2,3,2",
+            "criticalSupplyChain": "2,2,2,2,1",
+            "personalData": "2,2,2,2,3"
+        },
+        "sme": {
+            "nonCritical": "1,1,1,1,1",
+            "critical": "3,2,2,3,2",
+            "criticalSupplyChain": "2,2,2,2,1",
+            "personalData": "2,2,2,2,3"
+        }
+    },
+    "peopleAndCultures": {
+        "microManufacturers": {
+            "nonCritical": "0",
+            "critical": "2",
+            "criticalSupplyChain": "1",
+            "personalData": "1"
+        },
+        "smallManufacturers": {
+            "nonCritical": "0",
+            "critical": "2",
+            "criticalSupplyChain": "1",
+            "personalData": "1"
+        },
+        "mediumManufacturers": {
+            "nonCritical": "1",
+            "critical": "2",
+            "criticalSupplyChain": "1",
+            "personalData": "1"
+        },
+        "providers": {
+            "nonCritical": "1",
+            "critical": "2",
+            "criticalSupplyChain": "1",
+            "personalData": "1"
+        },
+        "sme": {
+            "nonCritical": "1",
+            "critical": "2",
+            "criticalSupplyChain": "1",
+            "personalData": "1"
+        }
+    },
+    "supplyChainSecurity": {
+        "microManufacturers": {
+            "nonImportant": "1,1,1,1,1,1",
+            "important": "2,1,1,1,1,2",
+            "essentialSupplyChain": "2,2,1,1,2,2",
+            "essential": "2,2,1,2,2,2"
+        },
+        "smallManufacturers": {
+            "nonImportant": "1,1,1,1,1,1",
+            "important": "2,1,1,1,1,2",
+            "essentialSupplyChain": "2,2,1,1,2,2",
+            "essential": "2,2,2,2,2,2"
+        },
+        "mediumManufacturers": {
+            "nonImportant": "1,1,1,1,1,1",
+            "important": "2,2,1,2,2,2",
+            "essentialSupplyChain": "2,2,1,2,2,2",
+            "essential": "3,2,2,2,2,2"
+        },
+        "providers": {
+            "nonImportant": "1,1,1,1,1,1",
+            "important": "2,2,1,1,1,2",
+            "essentialSupplyChain": "2,2,1,2,2,2",
+            "essential": "2,2,1,2,2,2"
+        },
+        "sme": {
+            "nonImportant": "1,1,1,1,1,1",
+            "important": "2,1,1,1,1,2",
+            "essentialSupplyChain": "2,2,1,2,2,2",
+            "essential": "2,2,1,2,2,2"
+        }
+    }
+}

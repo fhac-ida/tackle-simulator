@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+
+  mysql:
+    image: mariadb:10.9.4
+    container_name: cs-mysql
+    ports:
+      - "3306:3306"
+    #volumes:
+      #- ./mysql:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: "laraveldb"
+      MYSQL_USER: "laraveluser"
+      MYSQL_PASSWORD: "laravelx0a55"
+      MYSQL_ROOT_PASSWORD: "x0a55Qh71e2"
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    restart: unless-stopped
+
+  phpmyadmin:
+    image: phpmyadmin
+    depends_on:
+      - mysql
+    ports:
+      - 8080:80
+    environment:
+      PMA_HOST: mysql
+      MYSQL_ROOT_PASSWORD: "x0a55Qh71e2"
