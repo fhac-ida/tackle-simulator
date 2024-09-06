@@ -87,6 +87,8 @@ php artisan optimize
 
 Tackle should now be available at http://localhost:8000. If you're using Docker, you can also reach PhpMyAdmin for easier database management at http://localhost:8080.
 
+You can login to the platform via: admin@tackle.example | secret
+
 You can stop the system by stopping the running cmd services and by running:
 ```bash
 docker-compose -f ../docker-compose-dev.yml down
